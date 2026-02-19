@@ -1,0 +1,10 @@
+NMIT
+mnit
+__pychache__
+*.pyc
+.env
+backend/model_assests/
+*.pt
+*.pth
+*.onnx
+
