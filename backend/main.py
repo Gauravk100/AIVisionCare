@@ -187,7 +187,7 @@ def generate_medical_report(symptoms: List[str], image_bytes: bytes, modality: s
 
     # Generate content with image part and prompt
     response = client.models.generate_content(
-        model="models/gemini-2.0-flash",
+        model="models/gemini-2.5-flash",
         contents=contents
     )
     if not response or not hasattr(response, 'text') or response.text is None:
@@ -199,6 +199,7 @@ def generate_medical_report(symptoms: List[str], image_bytes: bytes, modality: s
 
 @app.post("/predict/xray/")
 async def predict_xray(file: UploadFile = File(...)):
+    print("running")
     if file.content_type not in ["image/jpeg", "image/png", "image/bmp"]:
         raise HTTPException(status_code=400, detail="Unsupported file type.")
 
@@ -267,6 +268,7 @@ async def generate_report(
         os.remove(temp_path)
         raise
     except Exception as e:
+        print(e)
         if os.path.exists(temp_path): os.remove(temp_path)
         raise HTTPException(status_code=500, detail=str(e))
     

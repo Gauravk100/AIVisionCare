@@ -7,4 +7,4 @@ backend/model_assests/
 *.pt
 *.pth
 *.onnx
-
+venv
