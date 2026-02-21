@@ -760,3 +760,5 @@ async def chat_with_report(request: ChatRequest):
         )
 
     return {"response": reply}
+    
+

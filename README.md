@@ -1,4 +1,4 @@
-# 🩺 MediVision AI - Medical Assistant AI Platform
+# AIVisionCare - Medical Assistant AI Platform
 
 ## 📸 Overview
 
@@ -151,51 +151,12 @@ npm run dev
 
 ---
 
-## 📸 UI Preview
 
-- Landing Page
-<img src="0.png"/>
-- File Upload
-<img src="1.png"/>
-- Results Page
-<img src="2.png"/>
-
----
-
-## ✍️ Authors
-
-* **Sumit Singh** (Model Training + Backend Development)
-* **Somil Gupta** (Frontend + Backend Integrations)
-* **Abhishek** (Prompt Designing + chatbot)
-
----
 
 ## 📜 License
 
 MIT License © 2025
 
 ---
-
-## 💡 Ideas for Future Work
-
-* Real-time WebSocket updates for predictions
-* Patient medical history & storage
-* Admin dashboard for logs, analytics, and moderation
-* Google Calendar integration for booking
-* Multi-language report generation
-
----
-
-## 🤝 Contributing
-
-1. Fork the repo
-2. Create your branch (`git checkout -b feature/xyz`)
-3. Commit your changes (`git commit -am 'Add xyz'`)
-4. Push to the branch (`git push origin feature/xyz`)
-5. Open a Pull Request 🚀
-
----
-
-🧱 Design and Developed by Team **CodeGenius**  ⚙️
 
  
